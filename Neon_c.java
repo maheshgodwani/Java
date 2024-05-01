@@ -5,7 +5,7 @@ class Neon{
     Neon(int num)
     {
         int sum = 0; 
-         int square = num * num;  
+        int square = num * num;  
         while (square != 0) {
             int digit = square % 10;
             sum += digit;
@@ -24,7 +24,7 @@ class Neon_c {
              
         Scanner sc = new Scanner(System.in);  
         System.out.print("Enter the number to check: ");  
-       int num = sc.nextInt();  
+        int num = sc.nextInt();  
         Neon ob = new Neon(num);
        
     }
